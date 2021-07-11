@@ -14,9 +14,6 @@ document.body.appendChild(ad);
 tracker.set('dimension' + opts.dimensionIndex, !ad.clientHeight);
 document.body.removeChild(ad);
 });
-
-ga(‘create’, ‘UA-78842172-4’, ‘auto’); //Replace UA-XXXXX-Y with your tracking ID.
-
-ga(‘require’, ‘adblockTracker’, {dimensionIndex: 1});
-
-ga(‘send’, ‘pageview’);
+ga('create', 'UA-78842172-4', 'auto');
+ga('require', 'adblockTracker', {dimensionIndex: 1});
+ga('send', 'pageview');
