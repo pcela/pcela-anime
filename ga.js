@@ -4,7 +4,7 @@
 
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
-})(window,document,’script’,’https://www.google-analytics.com/analytics.js’,’ga‘);
+})(window,document,’script’,’https://www.googletagmanager.com/gtag/js’,’ga‘);
 
 // Creates an adblock detection plugin.
 
@@ -30,7 +30,7 @@ document.body.removeChild(ad);
 
 });
 
-ga(‘create’, ‘UA-XXXXX-Y’, ‘auto’); //Replace UA-XXXXX-Y with your tracking ID.
+ga(‘create’, ‘G-EYBKRGC0VE’, ‘auto’); //Replace UA-XXXXX-Y with your tracking ID.
 
 ga(‘require’, ‘adblockTracker’, {dimensionIndex: 1});
 
