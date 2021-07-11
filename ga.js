@@ -30,7 +30,7 @@ document.body.removeChild(ad);
 
 });
 
-ga(‘create’, ‘G-EYBKRGC0VE’, ‘auto’); //Replace UA-XXXXX-Y with your tracking ID.
+ga(‘create’, ‘UA-78842172-4’, ‘auto’); //Replace UA-XXXXX-Y with your tracking ID.
 
 ga(‘require’, ‘adblockTracker’, {dimensionIndex: 1});
 
